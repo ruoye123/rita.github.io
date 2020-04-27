@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 很高兴认识你。
-featured-img:spring
+title: Nice to meet you.
+featured-img: sleek
 ---
 Hi, 你好，很高兴认识你。
