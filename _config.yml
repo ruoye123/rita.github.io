@@ -1,20 +1,37 @@
-#Dependencies
-markdown: kramdown
-highlighter: rouge
-
-#Setup
 title: Rita的个人博客 
-description: >-#
-   Rita的个人博客。分享工作中的相关知识。此外还输出自己的思考内容等。
+author: Rita
+description: Rita的个人博客。分享工作中的相关知识。此外还输出自己的思考内容等。
 baseurl: "" 
 url: "https://ruoye123.github.io"
-
-author:
+social:
   name: Rita
-  url: https://twitter.com/BenBalter
+  links: https://github.com/ruoye123
 
 permalink: /:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.png
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
